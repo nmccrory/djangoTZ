@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Current Time</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" href="{% static 'timey/styles.css' %}">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Currently, the Time is:</h2>
+			<h1>{{time}}</h1>
+		</div>
+	</body>
+</html>
